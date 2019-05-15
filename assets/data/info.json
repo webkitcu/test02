@@ -1,0 +1,20 @@
+[
+{
+    "place": "explain_1",
+    "infomation": [
+        { "description": "①説明文が入ります。説明文が入ります。説明文が入ります。" }
+    ]
+},
+{
+    "place": "explain_2",
+    "infomation": [
+        { "description": "①阿部。説明文が入ります。" }
+    ]
+},
+{
+    "place": "explain_3",
+    "infomation": [
+        { "description": "①加藤。説明文が入ります。" }
+    ]
+}
+]

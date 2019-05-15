@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="UTF-8" />
+<title>タイトル</title>
+<link rel="stylesheet" href="./assets/fonts/style.css" />
+<link rel="stylesheet" href="./assets/css/style.css" />
+<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script defer src="./assets/js/function.reserch.js"></script>
+</head>
+<body>
+
+<div class="col-single mt80">
+<div class="form-item" data-role="root">
+	<div class="form_entry" data-role="entry">
+		<div class="cp-entry_extra" data-role="component">
+			<div class="cp_input">
+				<input type="text" id="directory_1" name="directory[]" placeholder="/company/">
+			</div>
+			<div class="cp_btn"><button type="button" class="btn btn-operate_a btn_add icon" data-func="addInput"></button></div>
+		</div>
+	</div>
+	<div class="form_error">
+		<div class="error-front is-hide" data-role="error-front"></div>
+	</div>
+</div>
+</div>
+<style>
+	.col-single{
+		width: 470px;
+		margin: 0 auto;
+	}
+</style>
+</body>
+</html>
